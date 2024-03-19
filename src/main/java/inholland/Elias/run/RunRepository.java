@@ -26,7 +26,7 @@ public class RunRepository {
     @PostConstruct
     private void init() {
         runs.add(new Run(1,
-                "Monday Morning Run",
+                "Monday Evening Run",
                 LocalDateTime.now(),
                 LocalDateTime.now().plus(30, ChronoUnit.MINUTES),
                 3,
